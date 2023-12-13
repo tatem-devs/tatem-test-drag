@@ -25,3 +25,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.draggable-source--is-dragging {
+  filter: brightness(150%);
+  opacity: .3;
+}
