@@ -78,8 +78,6 @@ export default function Home() {
         })
         setSwappableObject(swappable)
       }
-
-      // TODO: load last saved state on page refresh
     }
     return () => {
       ref.current = true
